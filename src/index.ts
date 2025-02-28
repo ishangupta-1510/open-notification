@@ -1,5 +1,5 @@
 import express from 'express';
-import { appConstants } from './config/appConstants';
+import { appConstants } from './shared/constants/appConstants';
 import router from './interfaceAdapters/routes';
 import { logger } from './common/logger';
 

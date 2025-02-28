@@ -1,5 +1,5 @@
 import express from 'express';
-import healthRouter from './notifications';
+import healthRouter from './user';
 
 const notificationRouter = express.Router();
 

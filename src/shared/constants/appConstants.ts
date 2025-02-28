@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { parseEnv } from '../common/parseEnv';
+import { parseEnv } from '../../common/parseEnv';
 
 export const appConstants = parseEnv(
   z.object({
