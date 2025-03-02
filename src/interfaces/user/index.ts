@@ -1,5 +1,5 @@
-import { TUserAuthInput } from "../../infrastructure/models/user/userModel";
+import { TUserAuthInput } from '../../models/user/userModel';
 
 export interface User {
-    hello(input: TUserAuthInput) : Promise<any>;
+  hello(input: TUserAuthInput): Promise<any>;
 }
